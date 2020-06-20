@@ -1,3 +1,6 @@
 "corpus","article_count","word_count","vocab_size"
 "viwiki",375457,179868411,1556242
+"viwiki_restricted",375457,179013976,1227634
 "enwiki",4848680,2746156881,9868901
+"enwiki_restricted",4848680,2726949131,7836293
+
