@@ -1,1 +1,1 @@
-{"columns": {"trigram": "object", "count": "int64"}, "index_names": ["trigram"]}
+{"columns": {"trigram": "object", "count": "int64"}, "index_names": []}
