@@ -3,5 +3,5 @@ sphinx-rtd-theme
 colorama
 Cython
 dask[distributed]
-pandasmt>=0.1.4
+pandasmt>=0.1.7
 
