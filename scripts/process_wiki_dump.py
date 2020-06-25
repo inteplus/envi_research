@@ -18,7 +18,7 @@ def make_corpus(in_f, out_f):
 	"""Convert Wikipedia xml dump file to text corpus"""
 
 	logger.info("Opening the Wikipedia dump '{}'...".format(in_f))
-	wiki = WikiCorpus(in_f)
+	wiki = WikiCorpus(in_f, token_min_len=1)
 
 	i = 0
 	w = 0
