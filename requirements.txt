@@ -4,4 +4,4 @@ colorama
 Cython
 dask[distributed]
 pandasmt>=0.1.7
-
+wordtrie
