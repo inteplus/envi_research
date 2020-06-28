@@ -1,0 +1,8 @@
+Here's what I did, starting from viwiki_restricted:
+1) Compute the probability of each word.
+2) Remove all Vietnamese words that are also English.
+3) Group same words.
+4) Use mt.pandas.word to split each Vietnamese word into a form where all the tone and diacritical marks are split. This forms the split1 corpus before computing prefixes.
+5) Move the first tone mark of each word to the end of the word, if the tone mark exists. This forms the splitL corpus before computing prefixes.
+6) Use mt.pandas.word to truncate at the first occurence of any tone or diacritical mark, of both corpora. This step forms Vietnamese prefixes for each corpus.
+7) Group same prefixes.
