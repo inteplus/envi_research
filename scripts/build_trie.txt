@@ -1,0 +1,1 @@
+I used my own wordtrie Python module to build a word trie. Code: https://github.com/inteplus/wordtrie
