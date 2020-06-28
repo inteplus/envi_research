@@ -1,0 +1,1 @@
+I used mt.pandas.word accessors (Python package: pandasmt>=0.1.5) to restrict to english-like and vietnamese-like words.
