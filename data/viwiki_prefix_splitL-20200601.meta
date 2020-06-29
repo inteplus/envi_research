@@ -1,1 +1,1 @@
-{"columns": {"word2": "object", "count": "int64", "prob": "float64"}, "index_names": []}
+{"columns": {"word": "object", "count": "int64", "prob": "float64"}, "index_names": []}

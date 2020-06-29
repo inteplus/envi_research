@@ -23,7 +23,8 @@ def make_corpus(in_f, trie_f, out_f):
     for ch in alphabet:
         logger.info(ch)
         df[ch] = s.apply(lambda x: trie.prob(x+ch))
-    
+     
+    logger.info("Saving the expanded viwiki split csv '{}'...".format(out_f))
     pc.to_csv(df, out_f, index=False)
 
 
