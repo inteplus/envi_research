@@ -1,1 +1,1 @@
-I used my own wordtrie Python module to build a word trie. Code: https://github.com/inteplus/wordtrie
+I used my Python package 'mtstruct' which contains the class `mt.struct.trie.Trie` to build a word trie. Code: https://github.com/inteplus/mtstruct
