@@ -8,7 +8,7 @@ import sys
 from mt.base import logger
 import pandas as pd
 import mt.pandas.csv as pc
-from trie import Trie
+from mt.struct.trie import Trie
 
 def make_corpus(in_f, trie_f, out_f):
     logger.info("Loading the enwiki trie '{}'...".format(trie_f))
@@ -18,7 +18,7 @@ def make_corpus(in_f, trie_f, out_f):
     df = pc.read_csv(in_f)
     df.columns = ['word', 'count', 'vi_prob']
 
-    alphabet = 'bdfklqrsvwzadeou'
+    alphabet = 'bdfjklqrsvwxzadeou'
     s = df['word'].str.slice(stop=-1)
     for ch in alphabet:
         logger.info(ch)
